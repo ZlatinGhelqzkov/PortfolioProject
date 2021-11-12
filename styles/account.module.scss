@@ -1,0 +1,123 @@
+.Account {
+
+
+  @media (min-width: 768px) {
+
+  }
+  @media(min-width: 1024px) {
+    padding: 160px 130px;
+    display: flex;
+  }
+}
+
+.Person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+  @media(min-width: 1024px) {
+    width: 30%;
+  }
+}
+.Person_image {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.Person h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.Person_image img{
+  width: 100%;
+
+  clip-path: circle(50% at 50% 50%);
+  transition: 2s;
+}
+
+.Person_image img:hover{
+  width: 100%;
+  clip-path: circle(15.4% at 50% 50%);
+
+
+
+
+}
+.Person_menu  {
+width: 100%;
+}
+.Person_menu ul li{
+  margin-bottom: 1px;
+  width: 100%;
+  background: rgba(220,220,220,0.3);
+}
+
+.Person_menu ul li a{
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 16px;
+  width: 100%;
+  padding: 20px 100px 20px 50px;
+  color: #696969;
+}
+
+.Person_menu ul li a:after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 40px;
+  width: 2px;
+  height: 100%;
+  background-color: rgba(220,220,220,0.5);
+}
+
+.Orders {
+  padding-top: 30px;
+  width: 100%;
+  @media(min-width: 1024px) {
+    width: 70%;
+  }
+}
+
+.Main_row {
+  width: 100%;
+  border: 1px solid rgba(220,220,220,0.5) ;
+  display: flex;
+  @media(min-width: 1024px) {
+
+  }
+}
+
+.Main_row p{
+padding: 10px 0;
+background-color: rgba(220,220,220,0.3);
+width: 20%;
+text-align: center;
+color: #696969;
+}
+
+
+
+.Grid_row {
+  width: 100%;
+  display: flex;
+    border: 1px solid rgba(220,220,220,0.5) ;
+      margin-bottom: 5px;
+}
+
+.Grid_row:hover{
+
+    border: 1px solid rgba(200,200,200,1) ;
+}
+.Grid_row div{
+
+  padding: 10px 0;
+  width: 20%;
+  text-align: center;
+}

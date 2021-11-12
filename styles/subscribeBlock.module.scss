@@ -1,0 +1,103 @@
+.Subscribe_background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Subscribe_inner {
+  padding: 40px 0px;
+
+  @media(min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  @media(min-width: 1024px) {
+    padding: 80px 0px;
+  }
+}
+
+.Subscribe_content {
+  width: 85%;
+}
+
+.Subscribe_content h4 {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: -0.8px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.Subscribe_content p {
+  font-family: "Work Sans", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.4px;
+  color: #fff;
+  margin-bottom: 45px;
+
+  @media (min-width: 768px) {
+    margin-bottom: 0px;
+  }
+}
+
+.Subscribe_action {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    margin-left: 30px;
+  }
+
+  @media(min-width: 1024px) {
+    width: 50%;
+  }
+}
+
+.Subscribe_action input {
+  border-radius: 5px;
+  padding: 20px 30px;
+  background-color: #fff;
+  border: none;
+  margin-bottom: 10px;
+  width: 100%;
+
+  @media (min-width: 768px) {
+    margin-bottom: 0px;
+    padding: 16px 30px;
+  }
+}
+
+.Subscribe_action button {
+
+  @media(min-width: 768px) {
+    padding: 0;
+    width: 240px;
+  }
+}
+
+.Action_input {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+
+.Action_input label {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #222b34;
+
+  @media (min-width: 768px) {
+    transform: translateY(-50%);
+  }
+}
