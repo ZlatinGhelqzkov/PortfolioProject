@@ -1,0 +1,15 @@
+.Service {
+  margin-bottom: 50px;
+
+  @media(min-width: 768px) {
+    width: 47%;
+  }
+
+  @media(min-width: 1024px) {
+    width: 32%;
+  }
+}
+
+.Service_image img {
+  width: 100%;
+}

@@ -1,0 +1,84 @@
+.About_inner {
+  text-align: center;
+}
+
+.About_inner ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.About_inner ul li {
+  cursor: pointer;
+}
+
+.Selected {
+  background: red;
+}
+
+.About_inner ul li h5 {
+  text-decoration: none;
+  color: #585959;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.2px;
+  font-size: 10px;
+  padding: 5px 10px;
+
+  @media (min-width: 768px) {
+    font-size: 14px;
+  }
+}
+
+.About_inner ul li h5:hover {
+  color: #6447c7;
+  background: #F6F6FF;
+  border-radius: 7px;
+}
+
+.About_inner img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.About_inner p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: #6a6c75;
+}
+
+.Head_content {
+  width: 300px;
+  margin: auto;
+  margin-bottom: 20px;
+
+  @media (min-width: 768px) {
+    width: 500px;
+  }
+
+  @media (min-width: 1024px) {
+    width: 600px;
+  }
+}
+
+.About_inner_content {
+
+  @media(min-width: 1024px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.About_inner_description {
+
+  @media(min-width: 1024px) {
+    width: 500px;
+    text-align: left;
+  }
+}
+
+.SelectedTab {
+  background: red;
+}
